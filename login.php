@@ -6,3 +6,4 @@ function change_wp_login_url() {
 }
 add_filter('login_headerurl', 'change_wp_login_url');
 
+add_filter('login_display_language_dropdown', '__return_false');
